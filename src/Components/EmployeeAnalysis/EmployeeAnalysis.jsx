@@ -48,7 +48,7 @@ const EmployeeAnalysis = () => {
             <p style={{ width: "150px" }}>More Then 14 hour</p>
           </div>
         </div>
-        {arryOfData.slice(0, 100).map((single, index) => (
+        {arryOfData.slice(0, 1500).map((single, index) => (
           <div key={index} style={{ paddingLeft: "100px" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
               <p style={{ width: "100px" }}>{index + 1}</p>
